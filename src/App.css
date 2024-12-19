@@ -24,5 +24,31 @@ video {
   color: #575756;
   box-shadow: inset 0px 0px 0px 4px #ddd6e8;
   }
+
+  .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  }
+
+  li {
+  background-color: #ddd6e8;
+  padding: 10px;
+  margin: 10px;
+  }
   
-  
+  h1, h2, ul, p {
+  font-family: "Open Sans", sans-serif;
+  }
+
+  .icon {
+  width: 30px;
+  }
+
+  button {
+  margin-top: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: #dbecc4;
+  }
